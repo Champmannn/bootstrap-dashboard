@@ -1,1 +1,17 @@
+:root {
+    --bs-primary: #6200EA;
+}
 
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: #5000c9;
+    border-color: #5000c9;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+}
